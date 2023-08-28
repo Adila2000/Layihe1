@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-width: 600px;
+}
+
+.main h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.man {
+    display: none;
+}
+
+.logo {
+    width: 4%;
+}
+
+.logos p {
+    margin-right: 5%;
+}
+
+.first div {
+    margin-block: 3%;
+}
+
+.fpicture {
+    width: 10%;
+}
+
+.mchair {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.first {
+    padding: 4%;
+}
+
+.logos {
+    display: flex;
+}
+
+.quote {
+    width: 58%;
+    background-color: #1E4681;
+    color: white;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.second {
+    padding: 4%;
+}
+
+.second div {
+    margin-block: 3%;
+}
+
+.movie p{
+    margin-bottom: 3%;
+}
+
+.cameraMan {
+    display: flex;
+    justify-content: center;
+}
+
+.threePart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.threePart div {
+    width: 38%;
+}
+
+.third {
+    padding: 4%;
+}
+
+.thirdDiv div {
+    margin-block: 4%;
+    width: 55%;
+}
+
+.third h3 {
+    color: #1E4681;
+}
+
+.fourth {
+    padding: 4%;
+}
+
+.fourth h1{
+    margin-bottom: 4%;
+}
+
+.fifth {
+    padding: 4%;
+}
+
+.fifthPic {
+    margin-block: 2%;
+}
+
+.fifthPic div {
+    display: flex;
+    justify-content: center;
+}
+
+.sixth {
+    background-color: #EFEFEF;
+    padding: 4%;
+}
+
+.sixth div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.seventh {
+    background-color: #9DC9C8;
+    padding: 4%;
+}
+
+.seventh div {
+    margin-top: 5%;
+}
+
+.seventh h1 {
+    width: 60%;
+}
+
+.firstP {
+    margin-bottom: 3%;
+}
+
+.money {
+    font-weight: 400;
+}
+
+.dualPart {
+    display: flex;
+}
+
+.eighth {
+    background-color: #000000;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.eighth div {
+    margin-block: 2%;
+    width: 50%;
+}
+
+.eighth p {
+    color: white;
+}
+
+.contact {
+    display: flex;
+}
+
+@media (min-width: 900px) {
+    .man {
+        display: block;
+    }
+
+    .threePart {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .quote {
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .thirdDiv {
+        display: flex;
+    }
+
+    .thirdDiv div {
+        margin-inline: 2%;
+    }
+
+    .fifthPic {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fifthPic div {
+        margin: 2%;
+    }
+
+    .sixth div {
+        justify-content: flex-start;
+    }
+
+    .dualPart {
+        width: 50%;
+    }
+
+    .seventh div {
+        margin-right: 7%;
+    }
+}
